@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+    color: greenyellow;
+    font-family: monospace;
+
+}
+#description{
+    display:block;
+    width: 80vw;
+    border: 2px solid white;
+    margin:auto;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#commands{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    background-color: inherit;
+    color: inherit;
+    font-family: inherit;
+    padding: 5px;
+    border: 2px solid greenyellow;
+}
+label{
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 80vw;
+    padding: 5px;
+}
+#do{
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: inherit;
+    color:inherit;
+    font-family: inherit;
+    border: 2px solid greenyellow;
+    border-radius: 20px;
+}
+#do:hover{
+    background-color: greenyellow;
+    color: black;
+    transform: scale(1.2);
+  
+}
